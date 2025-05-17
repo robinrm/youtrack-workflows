@@ -12,7 +12,7 @@
 var entities = require("@jetbrains/youtrack-scripting-api/entities");
 
 exports.rule = entities.Issue.onChange({
-    title: "unstarr ticket if resolved",
+    title: "unstarr issue if resolved",
     guard: function (ctx) {
         const issue_0 = ctx.issue;
 
@@ -45,7 +45,7 @@ exports.rule = entities.Issue.onChange({
         user_2.unwatchIssue(issue_0);
         user_3.unwatchIssue(issue_0);
 
-        console.log("cleared issue: " + issue_0.id);
+        console.log("unstarred issue: " + issue_0.id);
     },
 });
 
