@@ -1,0 +1,11 @@
+{
+    "name": "repeating-issues-worklflow",
+    "title": "Wiederkehrende Ticketerstellung",
+    "version": "1.0.0",
+    "visual": true,
+    "vendor": {
+        "name": "Robin Meyer | Eickelmann & Meyer Industries GbR",
+        "url": "https://ecmin.de",
+        "email": "contact@ecmin.de"
+    }
+}
