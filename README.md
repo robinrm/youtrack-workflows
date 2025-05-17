@@ -5,5 +5,8 @@
 <ul>
   <li>Unstarr Issue by Resolved</li>
   <li>Repeating Issue Creator</li>
-  <li>Issue Work Timer (adjusted from Jetrains Version)</li>
+  <li>Issue Work Timer (adjusted from JetBrains Version)</li>
 </ul>
+
+<br/>
+<p>There is also a batch file for windows that show the current day and time so it's easier to keep an eye than the next run from your workflow is.</p>
